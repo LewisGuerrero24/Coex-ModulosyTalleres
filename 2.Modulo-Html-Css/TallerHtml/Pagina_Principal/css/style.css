@@ -11,14 +11,14 @@ body{padding: 0;
     background-color: var(--segundario);
 }
 
-.navg{
+.navg__container{
     background-color: var(--primario);
     display: flex;
     align-items: center;
     color: var(--terciario);
 }
 
-nav{
+.navg__container__nav{
     margin-left: 80px;
 }
 
@@ -42,7 +42,7 @@ h1{
 
 }
 
-main{
+.main{
     background-color: #965a41;
     margin: 0 auto;
     max-width: 80%;
@@ -56,7 +56,7 @@ img{
     height: 700px;
 }
 
-article{
+.main__section__article{
     text-align: center;
     
 }
