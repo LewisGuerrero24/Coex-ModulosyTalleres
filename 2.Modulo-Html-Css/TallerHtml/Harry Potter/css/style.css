@@ -81,6 +81,33 @@ img{
     height: 150px;
 }
 
+.section{
+    display: flex;
+    justify-content: center;
+}
+
+.section_tabla{
+    display: table;
+    table-layout:fixed;
+    
+    width: 80%;
+    border-spacing: 4px;
+    align-items: center;
+}
+
+.section_tabla__fila{
+    display: table-row;
+    
+}
+
+.section_tabla_fila_celdas{
+     display: table-cell;
+     vertical-align: middle;
+    border: 2px solid red;
+}
+
+
+
 footer{
     background-color: var(--primario);
     display: flex;

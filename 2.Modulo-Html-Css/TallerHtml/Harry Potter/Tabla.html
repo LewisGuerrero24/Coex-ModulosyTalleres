@@ -6,82 +6,84 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/tall.css">
     <title>Document</title>
 </head>
 <body>
-   <div class="navg">
+   <div class="navg-container">
         <header>
-            <img src="img/LogoHarry.png" alt="" class="logo">
+            <img src="img/LogoHarry.png" alt="" class="navg-container__header__Logo">
         </header>
-        <nav>
-            <ul>
+        <nav class="nav">
+            <ul class="nav_ul">
                 <li><a href="Index.html">Home</a></li>
                 <li><a href="Tabla.html">Personajes</a></li>
                 <li><a href="../Pagina_Principal/Index.html">Series</a></li>
             </ul>
         </nav>
    </div>
-   <main class="table">
+   <main class="main">
     <h1>Personajes de Harry Potter</h1>
     <hr>
     <h2>estos son los personajes de harry potter</h2>
 
     <hr>
-    <Table>
-        <caption>Personajes <hr></caption>
- 
-        <tr>
-                <th>NAME</th>
-                <th>SPECIES</th>
-                <th>GENDER</th>
-                <th>HOUSE</th>
-                <th>IMAGE</th>
-                <th>DATEOFBIRTH</th>
-         </tr>       
-            <tr>
-                <td>Harry Potter</td>
-                <td>Human</td>
-                <td>male</td>
-                <td>Gryffindor</td>
-                <td><img src="https://ik.imagekit.io/hpapi/harry.jpg"" alt=""></td>
-                <td>31-07-1980</td>
-            </tr>
-            <tr>
-                <td>Hermione Granger</td>
-                <td>human</td>
-                <td>female</td>
-                <td>Gryffindor</td>
-                <td><img src="https://ik.imagekit.io/hpapi/hermione.jpeg" alt=""></td>
-                <td>19-09-1979</td>
-            </tr>
-            <tr>
-                <td>Ron Weasley</td>
-                <td>Human</td>
-                <td>Male</td>
-                <td>Gryffindor</td>
-                <td><img src="https://ik.imagekit.io/hpapi/ron.jpg" alt=""></td>
-                <td>01-03-1980</td>
-            </tr>
-            <tr>
-                <td>Draco Malfoy</td>
-                <td>human</td>
-                <td>male</td>
-                <td>Slytherin</td>
-                <td><img src="https://ik.imagekit.io/hpapi/draco.jpg" alt=""></td>
-                <td>05-06-1980</td>
-            </tr>
-            <tr>
-                <td>Minerva McGonagall</td>
-                <td>Human</td>
-                <td>Female</td>
-                <td>Gryffindor</td>
-                <td><img src="https://ik.imagekit.io/hpapi/mcgonagall.jpg" alt=""></td>
-                <td>04-10-1925</td>
-            </tr>
-        </tr>
-    </Table>
-        
+    <section class="section">
+        <div class="section_tabla">
+            <div class="section_tabla__fila">
+              <div class="section_tabla_fila_celdas">NAME</div>
+              <div class="section_tabla_fila_celdas">SPECIES</div>
+              <div class="section_tabla_fila_celdas">GENDER</div>
+              <div class="section_tabla_fila_celdas">HOUSE</div>
+              <div class="section_tabla_fila_celdas">IMAGE</div>
+              <div class="section_tabla_fila_celdas">DATEOFBIRTH</div>
+            </div>
+            <div class="section_tabla__fila">
+              <div class="section_tabla_fila_celdas"> 
+                <div class="mod">
+                Harry Potter
+              </div>
+              </div>
+              <div class="section_tabla_fila_celdas">Human</div>
+              <div class="section_tabla_fila_celdas">Male</div>
+              <div class="section_tabla_fila_celdas">Gryffindor</div>
+              <div class="section_tabla_fila_celdas"><img src="https://ik.imagekit.io/hpapi/harry.jpg"" alt=""></div>
+              <div class="section_tabla_fila_celdas">31-07-1980</div>
+            </div>
+            <div class="section_tabla__fila">
+              <div class="section_tabla_fila_celdas">Hermaione Granger</div>
+              <div class="section_tabla_fila_celdas">Human</div>
+              <div class="section_tabla_fila_celdas">Female</div>
+              <div class="section_tabla_fila_celdas">Gryffindor</div>
+              <div class="section_tabla_fila_celdas"><img src="https://ik.imagekit.io/hpapi/hermione.jpeg" alt=""></div>
+              <div class="section_tabla_fila_celdas">19-09-1979</div>
+            </div>
+            <div class="section_tabla__fila">
+                <div class="section_tabla_fila_celdas">Ron Weasley</div>
+              <div class="section_tabla_fila_celdas">Human</div>
+              <div class="section_tabla_fila_celdas">Male</div>
+              <div class="section_tabla_fila_celdas">Gryffindor</div>
+              <div class="section_tabla_fila_celdas"><img src="https://ik.imagekit.io/hpapi/ron.jpg" alt=""></div>
+              <div class="section_tabla_fila_celdas">01-03-1980</div>
+            </div>
+            <div class="section_tabla__fila">
+                <div class="section_tabla_fila_celdas">Draco Malfoy</div>
+                <div class="section_tabla_fila_celdas">Human</div>
+                <div class="section_tabla_fila_celdas">Male</div>
+                <div class="section_tabla_fila_celdas">Slytherin</div>
+                <div class="section_tabla_fila_celdas"><img src="https://ik.imagekit.io/hpapi/draco.jpg" alt=""></div>
+                <div class="section_tabla_fila_celdas">05-06-1980</div>
+            </div>
+            <div class="section_tabla__fila">
+                <div class="section_tabla_fila_celdas">Minerva McGonagall</div>
+              <div class="section_tabla_fila_celdas">Human</div>
+              <div class="section_tabla_fila_celdas">Female</div>
+              <div class="section_tabla_fila_celdas">Gryffindor</div>
+              <div class="section_tabla_fila_celdas"><img src="https://ik.imagekit.io/hpapi/mcgonagall.jpg" alt=""></div>
+              <div class="section_tabla_fila_celdas">04-10-1925</div>
+            </div>
+        </div>
+    </section>
+       
    </main>
    <footer>
     <img src="img/LogoHarry.png" alt="" class="logo">
